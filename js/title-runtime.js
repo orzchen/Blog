@@ -31,6 +31,6 @@ function show_runtime() {
 	c = (b - B) * 60;
 	C = Math.floor((b - B) * 60);
 	D = Math.floor((c - C) * 60);
-	runtime_span.innerHTML = "网站在各种灾难中运行了: " + A + "天" + B + "小时" + C + "分" + D + "秒"
+	runtime_span.innerHTML = "小站在各种崩坏中坚持了: " + A + "天" + B + "小时" + C + "分" + D + "秒"
 }
 show_runtime();
