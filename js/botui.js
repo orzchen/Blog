@@ -6,7 +6,7 @@ A=O.context;var S=!A._isMounted||!n.isRootInsert;if(!S||x||""===x){var T=S&&d?d:
 function bot_ui_ini(){
 	var botui=new BotUI("hello-mashiro");botui.message.add({delay:800,content:"Hi, there👋"})
 	.then(function(){botui.message.add({delay:1100,content:"这里是 Orz·CHEN"})
-	.then(function(){botui.message.add({delay:1100,content:"一个喜欢代码的萌新😵~1212"})
+	.then(function(){botui.message.add({delay:1100,content:"一个喜欢代码的萌新😵~"})
 	.then(function(){
 		botui.action.button({
 		delay:1600,action:[
